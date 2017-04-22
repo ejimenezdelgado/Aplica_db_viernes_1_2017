@@ -18,8 +18,8 @@ INSERT INTO historia_trabajo VALUES(100, '12-01-1987',NULL, 1001, 61);
 
 -- Se insertan todos los países
 INSERT INTO pais VALUES ('C1', 'Indiana', 1002);
-INSERT INTO pais VALUES ('C2', 'USA');
-INSERT INTO pais VALUES ('C3', 'UK');
+INSERT INTO pais VALUES ('C2', 'USA',0);
+INSERT INTO pais VALUES ('C3', 'UK',0);
 INSERT INTO pais VALUES ('C4', 'India', 1001);
 INSERT INTO pais VALUES ('C5', 'USA', 1007);
 INSERT INTO pais VALUES ('C6', 'UK', 1003);
@@ -80,5 +80,5 @@ INSERT INTO locacion VALUES(91, 'Frente al Cementerio', '322540', 'San Francisco
 
 
 --Se insertan los trabajos
-INSERT INTO trabajo VALUES("1001",'Oficial', 210000.00, 400000.00);
-INSERT INTO trabajo VALUES("1002",'Recepcionista', 250000.00, 425000.00);
+INSERT INTO trabajo VALUES('1001','Oficial', 210000.00, 400000.00);
+INSERT INTO trabajo VALUES('1002','Recepcionista', 250000.00, 425000.00);
